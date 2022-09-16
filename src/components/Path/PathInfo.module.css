@@ -1,0 +1,48 @@
+/* .pathinfo {
+
+} */
+
+#pathinfo ul, li, a {
+  justify-content: center;
+  /* display: block; */
+  width: fit-content;
+  font-size: x-large;
+  color: white;
+  /* text-decoration: solid underline; */
+}
+
+.containers {
+  display: flex;
+}
+
+.writeup {
+  padding: 3rem;
+  background-color: rgb(140, 153, 153);
+}
+
+.writeup p { 
+  color: rgb(217, 203, 176);
+}
+
+.writeup img {
+  padding-left: 5%;
+  max-width: 50%;
+  max-height: auto;
+}
+
+.colleges {
+  background-color: rgb(113, 149, 149);
+  max-width: auto;
+  max-height: fit-content;
+}
+
+.colleges li {
+  /* background-color: aquamarine; */
+  color: black;
+  padding: 1em 1em;
+  margin-bottom: 33%;
+}
+
+.colleges a {
+  color: white;
+}

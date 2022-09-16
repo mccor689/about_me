@@ -1,0 +1,29 @@
+.box {
+  /* justify-content: center; */
+  /* margin: 0 0 0 8%; */
+  border-radius: 6px;
+  align-content: center;
+  padding: 2rem;
+  padding-bottom: 6rem;
+  width: 85%;
+  height: 40%;
+  background-color: gainsboro;
+  color: #455351;
+}
+
+.box p {
+  color: #333a39;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.box h1 {
+  color: #374241;
+  font-size: xx-large;
+}
+
+.box h2 {
+  color: #595f5e;
+  font-size: larger;
+  text-decoration: underline;
+}
