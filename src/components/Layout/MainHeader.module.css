@@ -1,6 +1,7 @@
 .header {
-  width: 100%;
-  height: 5rem;
+  /* width: 100%; */
+  height: fit-content;
+  min-height: 5rem;
   display: flex;
   font-weight: 750;
   justify-content: left;
@@ -9,21 +10,34 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: rgba(255, 255, 255, 0.377);
+  /* font-size: 1.5rem; */
+  /* font-weight: 800; */
+  color: rgba(25, 116, 155, 0.377);
+}
+
+.nav {
+  justify-content: space-between;
 }
 
 .nav ul {
   list-style: none;
-  display: flex;
+  display: table;
   margin: 0;
   padding: 0;
 }
 
 .nav li {
+  /* display: table; */
+  display: inline-block;
+  justify-content: space-between;
   margin-left: 4rem;
   font-size: 1.25rem;
+}
+
+.nav ul li {
+  /* display: inline-block; */
+  float: left;
+  /* position: relative; */
 }
 
 .nav a {

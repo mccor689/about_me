@@ -14,7 +14,7 @@ const CourseDetail = (props) => {
     });
     return (
         <Fragment>
-            <SmallCard linkTo='/courses'>Back</SmallCard>
+            <SmallCard linkTo='/about_me/courses'>Back</SmallCard>
             <LightBox>
                 <section>
                     <h1>{course.name}</h1>

@@ -2,11 +2,11 @@ import { NavLink } from 'react-router-dom';
 import classes from './Card.module.css';
 
 const Card = (props) => {
-    if (props.course) {
+    if (props.courseLink) {
         return (
             <div className={classes.card}>
                 <NavLink
-                    to={`/courses/${props.course.key}`}
+                    to={props.courseLink}
                     style={{color: '#455351', textDecoration: 'none'}}
                 >
                     {props.children}

@@ -1,11 +1,7 @@
-const Skills = (props) => {
-    return (
-        <ul>
-            <li>skill 1</li>
-            <li>skill 2</li>
-            <li>skill 3</li>
-        </ul>
-    );
+import SkillInfo from "../components/Skills/SkillInfo";
+
+const Skills = () => {
+    return <SkillInfo />
 };
 
 export default Skills;

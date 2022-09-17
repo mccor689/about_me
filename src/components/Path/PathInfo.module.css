@@ -13,15 +13,20 @@
 
 .containers {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .writeup {
-  padding: 3rem;
+  /* max-width: 80%; */
+  padding: 3rem 0;
+  flex: 1 2 80%;
+  /* min-width: 70%; */
+  /* flex-wrap: wrap; */
   background-color: rgb(140, 153, 153);
 }
 
 .writeup p { 
-  color: rgb(217, 203, 176);
+  color: rgb(162, 120, 34);
 }
 
 .writeup img {
@@ -31,16 +36,19 @@
 }
 
 .colleges {
+  /* flex-wrap: wrap; */
+  flex: 1 1 20%;
   background-color: rgb(113, 149, 149);
-  max-width: auto;
-  max-height: fit-content;
+  /* min-width: 200px; */
+  /* max-width: auto; */
+  /* max-height: fit-content; */
 }
 
 .colleges li {
   /* background-color: aquamarine; */
   color: black;
-  padding: 1em 1em;
-  margin-bottom: 33%;
+  padding: 10% 10%;
+  /* margin-bottom: 33%; */
 }
 
 .colleges a {

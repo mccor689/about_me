@@ -6,6 +6,7 @@ import Courses from './pages/Courses';
 import NotFound from './pages/NotFound';
 import Skills from './pages/Skills';
 import CourseDetail from './components/Courses/CourseDetail';
+import Links from './pages/Links';
 
 function App() {
 
@@ -13,19 +14,22 @@ function App() {
     <div className='App'>
       <Layout>
         <Switch>
-          <Route path='/path' exact>
+          <Route path='/about_me/path' exact>
             <Path />
           </Route>
-          <Route path='/courses' exact>
+          <Route path='/about_me/courses' exact>
             <Courses />
           </Route>
-          <Route path='/courses/:key'>
+          <Route path='/about_me/courses/:key'>
             <CourseDetail />
           </Route>
-          <Route path='/skills'>
+          <Route path='/about_me/skills'>
             <Skills />
           </Route>
-          <Route path='/' exact>
+          <Route path='/about_me/links'>
+            <Links />
+          </Route>
+          <Route path='/about_me' exact>
             <div className='App'>
               <img src='' alt='A picture of me NOT ADDED YET' />
               <p>

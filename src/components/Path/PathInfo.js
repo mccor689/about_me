@@ -14,13 +14,13 @@ const PathInfo = () => {
                     <img src={umn} alt='UMN Logo' />
                     <p>
                         I am on an accelerated path to graduate.
-                        My strategy consists of using the summers to take elective credits and liberal education requirements.
+                        My strategy consists of using summers to take elective and liberal education requirements.
                     </p>
                     <p>
-                        I came out of high school with college credit, but there are four colleges that I have take courses through.
+                        I came out of high school with college credit, but there are four colleges that I have taken courses through.
                     </p>
                     <p>
-                        Taking around 16 credits a semester in the fall and spring, and an average of 6 credits in each summer semester,
+                        Averaging 16 credits a semester in the fall and spring, and an average of 6 credits in each summer semester,
                         I will graduate with my bachelor of science degree in Computer Science 2.5 years after I finished high school.
                     </p>
                 </div>

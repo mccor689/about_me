@@ -1,0 +1,19 @@
+.skill img {
+    outline: 2px black;
+    height: 10rem;
+    width: auto;
+}
+
+.skill ul {
+  border: 10px solid white;
+  align-items: center;
+  list-style: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: rgb(165, 203, 239);
+}
+
+.skill li {
+    margin: 3rem;
+    display: inline;
+}
