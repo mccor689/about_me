@@ -32,6 +32,11 @@ const MainHeader = (props) => {
                             Links
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to='/about_me/coming_soon' activeClassName={classes.active}>
+                            Coming Soon
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
       </header>

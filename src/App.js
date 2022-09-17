@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound';
 import Skills from './pages/Skills';
 import CourseDetail from './components/Courses/CourseDetail';
 import Links from './pages/Links';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path='/about_me/links'>
             <Links />
+          </Route>
+          <Route path='/about_me/coming_soon'>
+            <ComingSoon />
           </Route>
           <Route path='/about_me' exact>
             <div className='App'>
