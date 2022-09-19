@@ -8,6 +8,7 @@ import Skills from './pages/Skills';
 import CourseDetail from './components/Courses/CourseDetail';
 import Links from './pages/Links';
 import ComingSoon from './pages/ComingSoon';
+import me from './resources/pictureOfMe.jpg';
 
 function App() {
 
@@ -35,7 +36,11 @@ function App() {
           </Route>
           <Route path='/about_me' exact>
             <div className='App'>
-              <img src='' alt='A picture of me NOT ADDED YET' />
+              <img
+                className='selfImg'
+                src={me}
+                alt='A picture of me'
+              />
               <p>
                 My name is Ryan McCormick and I am a senior with development interests:
               </p>

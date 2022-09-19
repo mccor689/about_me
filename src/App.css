@@ -24,3 +24,9 @@
   font-weight: 700;
   color: gainsboro;
 }
+
+.selfImg {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}

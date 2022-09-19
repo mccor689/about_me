@@ -7,7 +7,7 @@ const ComingSoon = () => {
             <h1>Coming Soon</h1>
             <ul>
                 {FutureFeatures.map(feature => {
-                    return (<li>{feature}</li>);
+                    return (<li><p>{feature}</p></li>);
                 })}
             </ul>
         </Fragment>
